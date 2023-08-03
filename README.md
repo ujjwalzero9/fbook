@@ -1,30 +1,47 @@
 # Social Media App
 
-![Project Logo](link_to_logo_or_image)
+This is a backend implementation for a social media app built using Django, providing API endpoints for user registration, posts, comments, likes, and follows.
 
-## Description
-
-This is a social media app built using Django and Django Rest Framework. It allows users to create and share posts, comment on posts, like posts, and follow other users. The app provides a seamless and interactive platform for social networking.
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [API Endpoints](#api-endpoints)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
+- User registration and authentication.
+- Creating, updating, and deleting posts.
+- Adding, updating, and deleting comments on posts.
+- Liking and unliking posts and comments.
+- Following and unfollowing other users.
+- API endpoints for accessing and managing data.
 
-- User Authentication: Users can sign up, log in, and manage their profiles.
-- Posts: Users can create, view, update, and delete posts.
-- Comments: Users can comment on posts and view comments on posts.
-- Likes: Users can like posts and view the number of likes on each post.
-- Follow: Users can follow other users and see posts from the users they follow.
-
-## Technologies Used
-
-- Django: Backend framework for building web applications.
-- Django Rest Framework: Toolkit for building Web APIs in Django.
-- HTML, CSS, JavaScript: Frontend technologies for building the user interface.
-- Bootstrap: CSS framework for responsive and attractive UI design.
+## Requirements
+- Python 3.6+
+- Django 3.2+
+- Django REST framework
 
 ## Installation
+1. Clone this repository to your local machine.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Run the Django development server using `python manage.py runserver`.
 
-1. Clone the repository:
+## API Endpoints
+- `/api/users/`: API endpoint for listing and creating users.
+- `/api/users/{user_id}/`: API endpoint for retrieving, updating, and deleting a specific user.
+- `/api/posts/`: API endpoint for listing and creating posts.
+- `/api/posts/{post_id}/`: API endpoint for retrieving, updating, and deleting a specific post.
+- `/api/posts/{post_id}/comments/`: API endpoint for listing and creating comments on a post.
+- `/api/posts/{post_id}/likes/`: API endpoint for listing and creating likes on a post.
+- `/api/comments/{comment_id}/`: API endpoint for retrieving, updating, and deleting a specific comment.
+- `/api/comments/{comment_id}/likes/`: API endpoint for listing and creating likes on a comment.
+- `/api/follows/`: API endpoint for listing and creating follows between users.
+- `/api/follows/{follow_id}/`: API endpoint for retrieving and deleting a specific follow.
 
-```bash
-git clone https://github.com/your_username/social-media-app.git
-cd social-media-app
+## Usage
+- Use Postman or any API client to make requests to the above endpoints.
+- Register users, create posts, add comments, and interact with the app's social features.
+
