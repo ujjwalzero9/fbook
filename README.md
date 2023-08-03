@@ -45,3 +45,8 @@ This is a backend implementation for a social media app built using Django, prov
 - Use Postman or any API client to make requests to the above endpoints.
 - Register users, create posts, add comments, and interact with the app's social features.
 
+
+---
+
+**Ujjwal Kumar**
+Email: ujjwalzero9@gmail.com
