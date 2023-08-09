@@ -8,8 +8,7 @@ This is a backend implementation for a social media app built using Django, prov
 - [Installation](#installation)
 - [API Endpoints](#api-endpoints)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - User registration and authentication.
