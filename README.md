@@ -40,6 +40,9 @@ This is a backend implementation for a social media app built using Django, prov
 - `/api/follows/`: API endpoint for listing and creating follows between users.
 - `/api/follows/{follow_id}/`: API endpoint for retrieving and deleting a specific follow.
 
+- ## POSTMAN API Collection
+- https://lively-crater-762071.postman.co/workspace/New-Team-Workspace~e2e64a87-fe96-480f-b9ca-88f791f78492/collection/28732463-dce7387f-34e2-42eb-907f-72cec918c832?action=share&creator=28732463
+
 ## Usage
 - Use Postman or any API client to make requests to the above endpoints.
 - Register users, create posts, add comments, and interact with the app's social features.
